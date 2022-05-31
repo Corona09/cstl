@@ -10,7 +10,7 @@
 Heap* newHeap(HeapNodeCompare compare) {
 	Heap* heap = (Heap*) malloc(1 * sizeof(Heap));
 	heap->compare = compare;
-	heap->capacity = HEAP_DEFAULT_SIZE;
+	heap->capacity = HEAP_DEFAULT_CAPACITY;
 	heap->data = (void**) malloc((heap->capacity) * sizeof(void*));
 	heap->size = 0;
 	return heap;

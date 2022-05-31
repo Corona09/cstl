@@ -7,7 +7,7 @@
 #ifndef HEAP_H_ZUMVV5UX_6B6C5F34_B741_48A4_8924_409768DF4C08
 #define HEAP_H_ZUMVV5UX_6B6C5F34_B741_48A4_8924_409768DF4C08
 
-static const int32_t HEAP_DEFAULT_SIZE = 5;
+static const int32_t HEAP_DEFAULT_CAPACITY = 5;
 
 
 typedef int (*HeapNodeCompare)(void*, void*);
