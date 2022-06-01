@@ -4,8 +4,8 @@
 #include <string.h>
 #include <stdint.h>
 
-#ifndef HEAP_H_ZUMVV5UX_6B6C5F34_B741_48A4_8924_409768DF4C08
-#define HEAP_H_ZUMVV5UX_6B6C5F34_B741_48A4_8924_409768DF4C08
+#ifndef HEAP_H_ZUMVV5UX
+#define HEAP_H_ZUMVV5UX
 
 static const int32_t HEAP_DEFAULT_CAPACITY = 5;
 
