@@ -7,8 +7,7 @@
 #ifndef HEAP_H_ZUMVV5UX
 #define HEAP_H_ZUMVV5UX
 
-static const int32_t HEAP_DEFAULT_CAPACITY = 5;
-
+static const int64_t HEAP_DEFAULT_CAPACITY = 5;
 
 typedef int (*HeapNodeCompare)(void*, void*);
 

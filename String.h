@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
 
 #ifndef STRING_H_F1QA9YBR
 #define STRING_H_F1QA9YBR
@@ -12,8 +13,8 @@
  */
 typedef struct String {
 	char* value;
-	int length;
-	int capacity;
+	int32_t length;
+	int32_t capacity;
 } String;
 
 /**
